@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -92,16 +93,16 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-gideon transition-colors">Privacy</a>
+                <Link to="/privacy" className="text-gray-400 hover:text-gideon transition-colors">Privacy</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-gideon transition-colors">Terms</a>
+                <Link to="/terms" className="text-gray-400 hover:text-gideon transition-colors">Terms</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-gideon transition-colors">Security</a>
+                <Link to="/security" className="text-gray-400 hover:text-gideon transition-colors">Security</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-gideon transition-colors">Cookies</a>
+                <Link to="/cookies" className="text-gray-400 hover:text-gideon transition-colors">Cookies</Link>
               </li>
             </ul>
           </div>
@@ -112,9 +113,9 @@ const Footer = () => {
             © {new Date().getFullYear()} GideonAI. All rights reserved.
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-500 hover:text-gideon transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-500 hover:text-gideon transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-500 hover:text-gideon transition-colors">Cookie Policy</a>
+            <Link to="/privacy" className="text-gray-500 hover:text-gideon transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="text-gray-500 hover:text-gideon transition-colors">Terms of Service</Link>
+            <Link to="/cookies" className="text-gray-500 hover:text-gideon transition-colors">Cookie Policy</Link>
           </div>
         </div>
       </div>
