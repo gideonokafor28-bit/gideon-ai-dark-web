@@ -39,8 +39,8 @@ const CTA = () => {
           <div className="mt-10 pt-6 border-t border-gray-700/50">
             <p className="text-gray-400">
               Have questions? Reach out at{" "}
-              <a href="mailto:info@gideonai.com" className="text-gideon hover:text-gideon-400 underline underline-offset-2">
-                info@gideonai.com
+              <a href="mailto:gideonokafor28@gmail.com" className="text-gideon hover:text-gideon-400 underline underline-offset-2">
+                gideonokafor28@gmail.com
               </a>
             </p>
           </div>
