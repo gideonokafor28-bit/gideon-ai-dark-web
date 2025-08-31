@@ -75,5 +75,5 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 ## Domain Information
 
-This project is set up to use the domain: **GideonAI.com**
+This project is set up to use the domain: **GideonAI.io**
 
